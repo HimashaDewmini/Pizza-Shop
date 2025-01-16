@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     padding: 50px 20px;
-    background-color: #fdf4e3; 
+    background-color: #141311; 
   }
   
   .about-container {
@@ -23,14 +23,14 @@
   .about-title {
     font-size: 2.5rem;
     font-weight: bold;
-    color: #333;
+    color: #aaae43;
     margin-bottom: 20px;
     text-align: center;
   }
   
   .about-paragraph {
     font-size: 1rem;
-    color: #555;
+    color: #efe5e5;
     line-height: 1.8;
     text-align: center;
   }
@@ -43,7 +43,7 @@
   .about-image img {
     width: 100%;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(182, 103, 103, 0.1);
   }
   
   
@@ -55,7 +55,7 @@
   .chef-title {
     font-size: 2rem;
     font-weight: bold;
-    color: #333;
+    color: #afd164;
     margin-bottom: 30px;
   }
   
@@ -67,7 +67,7 @@
   }
   
   .chef-card {
-    background-color: #fff;
+    background-color: #72765b;
     border-radius: 10px;
     padding: 20px;
     text-align: center;
@@ -85,7 +85,7 @@
     height: 100px;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   
   .chef-name {
@@ -96,6 +96,6 @@
   
   .chef-role {
     font-size: 1rem;
-    color: #777;
+    color: #0a0a0a;
   }
   
