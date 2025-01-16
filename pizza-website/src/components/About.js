@@ -1,6 +1,6 @@
 import React from "react";
-import "./About.css"; // Ensure this CSS file exists
-import pizzaShopImage from "../assets/pizza-shop.jpeg"; // Add your image in src/assets folder
+import "./About.css"; 
+import pizzaShopImage from "../assets/pizza-shop.jpeg"; 
 import chef1 from "../assets/chef1.jpeg";
 import chef2 from "../assets/chef1.jpeg";
 import chef3 from "../assets/chef1.jpeg";
@@ -10,7 +10,7 @@ const About = () => {
   return (
     <section className="about">
       <div className="about-container">
-        {/* Left Side - Text Content */}
+    
         <div className="about-content">
           <h1 className="about-title">About Our Pizza Shop</h1>
           <p className="about-paragraph">
@@ -23,13 +23,13 @@ const About = () => {
           </p>
         </div>
 
-        {/* Right Side - Image */}
+        
         <div className="about-image">
           <img src={pizzaShopImage} alt="Our Pizza Shop" />
         </div>
       </div>
 
-      {/* Chef Section */}
+      
       <div className="chef-section">
         <h2 className="chef-title">Meet Our Chefs</h2>
         <div className="chef-container">

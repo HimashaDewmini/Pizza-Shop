@@ -1,5 +1,5 @@
 import React from "react";
-import "./Blog.css"; // Ensure this matches your CSS file name and path
+import "./Blog.css"; 
 import image1 from "../assets/image_1.jpg";
 import image2 from "../assets/image_2.jpg";
 import image3 from "../assets/image_3.jpeg";
@@ -7,21 +7,21 @@ import image3 from "../assets/image_3.jpeg";
 const Blog = () => {
   const blogs = [
     {
-      image: image1,  // Replace with your image path
+      image: image1,  
       date: "Sept 6, 2018",
       author: "Admin",
       comments: 3,
       title: "The Delicious Spaghetti",
     },
     {
-      image: image2, // Replace with your image path
+      image: image2, 
       date: "Sept 10, 2018",
       author: "Admin",
       comments: 3,
       title: "The Delicious Pasta",
     },
     {
-      image: image3, // Replace with your image path
+      image: image3, 
       date: "Sept 15, 2018",
       author: "Admin",
       comments: 3,

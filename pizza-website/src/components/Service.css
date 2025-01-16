@@ -1,20 +1,20 @@
-/* Background Styling */
+
 .services {
     
-    background-image: url("../assets/background-pattern.jpeg"); /* Add a pattern if you have one */
+    background-image: url("../assets/background-pattern.jpeg"); 
     background-size: cover;
     background-repeat: no-repeat;
     padding: 50px 20px;
     text-align: center;
   }
   
-  /* Container */
+
   .container {
     max-width: 1200px;
     margin: 0 auto;
   }
   
-  /* Title and Description */
+  
   .services-title {
     font-size: 2.5rem;
     font-weight: bold;
@@ -28,7 +28,7 @@
     margin-bottom: 50px;
   }
   
-  /* Service Cards */
+  
   .services-grid {
     display: flex;
     justify-content: center;

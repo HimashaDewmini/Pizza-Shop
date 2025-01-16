@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     padding: 50px 20px;
-    background-color: #fdf4e3; /* Light beige background */
+    background-color: #fdf4e3; 
   }
   
   .about-container {
@@ -46,7 +46,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
-  /* Chef Section */
+  
   .chef-section {
     text-align: center;
     margin-top: 50px;
