@@ -8,7 +8,7 @@ import chef4 from "../assets/chef6.jpg";
 
 const About = () => {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <div className="about-container">
         {/* About Section */}
         <div className="about-content">

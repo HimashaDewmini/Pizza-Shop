@@ -30,10 +30,12 @@ const Blog = () => {
   ];
 
   return (
-    <section className="blog">
+    <section className="blog" id="blog">
       <h1 className="blog-title">Read Our Blog</h1>
       <p className="blog-description">
-      A small river named Duden flows by their place and supplies it with the necessary regelialia.
+      Welcome to My Pizza Shop Blog, <br></br><br></br>where we share our love for delicious, handcrafted pizzas!<br></br>
+       From classic flavors to innovative new toppings, we bring you the latest updates, mouthwatering recipes, and behind-the-scenes stories from our kitchen. <br></br>Whether you're a pizza enthusiast or just looking for the perfect slice, our blog is your go-to place for all things pizza. <br>
+       </br>Stay tuned for special deals, customer favorites, and tips to make your pizza nights even better!
       </p>
       <div className="blog-grid">
         {blogs.map((blog, index) => (

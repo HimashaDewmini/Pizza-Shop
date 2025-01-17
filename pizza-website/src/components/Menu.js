@@ -19,7 +19,7 @@ const Menu = () => {
   ];
 
   return (
-    <section className="menu">
+    <section className="menu" id="menu">
       <h1 className="menu-title">Our Menu</h1>
       <div className="menu-grid">
         {pizzas.map((pizza, index) => (

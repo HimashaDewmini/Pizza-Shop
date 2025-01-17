@@ -1,9 +1,14 @@
-.navbar {
-  background-color: black;
-  display: flex;
-  justify-content: space-between; 
+  .navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between; 
     align-items: center;
-    padding: 10rem 5rem;
+    padding: 1rem 5rem; 
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+    transition: background-color 0.3s ease, padding 0.3s ease;
   }
   
   .navbar-brand {
@@ -20,7 +25,7 @@
     align-items: center;
     gap: 1rem;
     margin-top: 1rem;
-}
+  }
 
   
   .navbar-menu li {
